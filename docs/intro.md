@@ -1,6 +1,6 @@
-# Introduction to Web Development
+## Introduction to Web Development
 
-## Pitfalls to Avoid
+### Pitfalls to Avoid
 
 #### [A note on AI code generation](https://www.theodinproject.com/lessons/foundations-motivation-and-mindset#a-note-on-ai-code-generation)
 
@@ -48,7 +48,7 @@ The Odin Project does not recommend taking a lot of notes throughout your web de
 
 
 
-## Asking For Help
+### Asking For Help
 
 #### Always provide your code and the surrounding context
 
@@ -78,7 +78,7 @@ People who volunteer in coding communities are here to help! A question you may 
 
 
 
-## Meet HTML, CSS, JavaScript
+### Meet HTML, CSS, JavaScript
 
 Normally HTML(Hyper Text Markup Language) and CSS(Cascading Style Sheets) doesn't do any logic. They just present elements in a static way. In contrast, JavaScript is a language that instructs things to function.
 

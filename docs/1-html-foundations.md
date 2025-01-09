@@ -1,6 +1,6 @@
-# HTML Foundations
+## HTML Foundations
 
-## Elements & Tags
+### Elements & Tags
 
 1. Opening tag, some text content, closing tag `<p>text</p>`
 
@@ -15,7 +15,7 @@
 
 
 
-## HTML Boilerplate
+### HTML Boilerplate
 
 - Web servers by default look for `index.html` page when users land on websites.
 - Starts with a DOCTYPE declaration specifying HTML version. Latest HTML5 requires `<!DOCTYPE html>`.
@@ -34,14 +34,14 @@
 
 
 
-## Text Styles
+### Text Styles
 
 1. Paragraphs are not declared with new line. Instead, use `<p>` `</p>`.
 2. Headings from `<h1>` to `<h6>`. An `<h1>` heading should always be used for the heading of the overall page.
-3. Bold: `<strong>`. Italic emphasis: `<em>`. Italic but no emphasis: `<i>` (often for foreign words, technical terms, thoughts, etc.)
+3. Bold: `<strong>`. Italic for emphasis: `<em>`. Italic but no emphasis: `<i>` (often for *foreign words, technical terms, thoughts, etc.*)
 4. Comments are not visible to the browser: `<!-- I am an html comment -->`
 
-### Lists
+#### Lists
 
 1. Unordered lists:
 
@@ -61,13 +61,13 @@
    </ol>
    ```
 
-### Links and Images
+#### Links and Images
 
-- Links use `<a>`, and require a `href` **HTML attribute**. Attributes are `name=value` pairs that go into the tag.
+- Links use `<a>`, and require a `href` *HTML attribute*. Attributes are `name=value` pairs that go into the tag.
   - If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
-  - By default `target="_self"` attribute is set, and the opened link will replace current webpage. Use `target="_blank"` attribute to open it in a new page, and always attach a `rel="noopener noreferrer"` attribute (the first is included in the second) to prevent *plishing attacks*.
+  - By default `target="_self"` attribute is set, and the opened link will replace current webpage. ==Use `target="_blank"` attribute to open it in a new page, and always attach a `rel="noopener noreferrer"` attribute (the first is included in the second) to prevent *plishing attacks*.==
   - Allow absolute links and relative links.
 
 - Images use `<img>` (void element), and require a `src` attribute.
-  - Besides the `src` attribute, every image element must also have an `alt` (alternative text) attribute to describe an image.
+  - ==Besides the `src` attribute, every image element should also have an `alt` (alternative text) attribute to describe an image.==
   - It is a good habit to always specify `height="xxx"` and `width="xxx"` attributes on every image, even when the image is the correct size or you are using CSS to modify  it.
