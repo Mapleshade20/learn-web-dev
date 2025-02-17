@@ -1,0 +1,70 @@
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.one {
+  background: pink;
+  border: 3px solid blue;
+  padding: 32px;
+  margin: 12px;
+}
+
+.two {
+  background: lightblue;
+  border: 3px solid purple;
+  /* CHANGE ME */
+  margin-bottom: 48px;
+}
+
+.three {
+  background: peachpuff;
+  border: 3px solid brown;
+  width: 200px;
+  padding: 32px;
+  margin-left: auto;
+  /* NOTE: smart */
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  padding: 8px;
+  margin: 16px auto;
+}
+
+.card .title {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px;
+  margin-bottom: 8px;
+  background: #e3f4ff;
+}
+
+.card .content {
+  font-size: 16px;
+  padding: 16px 8px;
+  margin-bottom: 8px;
+  background: #e3f4ff;
+}
+
+.card .button-container {
+  text-align: center;
+  padding: 8px;
+  background: #e3f4ff;
+}
+
+.card button {
+  display: block;
+  background: white;
+  /* padding: 8px; */
+  /* padding-left: 24px; */
+  /* padding-right: 24px; */
+  padding: 8px 24px;
+  border: 1px solid #eee;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  margin: 0 auto;
+}
